@@ -46,3 +46,12 @@ git push -u origin main
 git add -A
 git rebase --continue
 git push -u origin main
+
+
+
+
+IF you made any changes and want to update it on github
+
+git add -A
+git commit -m "**comments**"
+git push
