@@ -30,7 +30,19 @@ git push -u origin main
 
 
 
---- When changes made 
+--- When changes are made 
 git add "filename.ipynb"
 git commit -m "Update operators examples"
 git push
+
+
+IF there is any change in GitHub, you first need to pull it and then push
+--The push was rejected because the GitHub repository has commits that aren’t on your computer yet. This often happens when GitHub creates a README or license file during setup. Download those commits first, then push:
+
+git pull --rebase origin main
+git push -u origin main
+
+
+git add -A
+git rebase --continue
+git push -u origin main
