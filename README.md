@@ -50,8 +50,16 @@ git push -u origin main
 
 
 
-IF you made any changes and want to update it on github
+IF you made any changes in the existing Notebook and want to update it on GitHub
 
 git add -A
 git commit -m "**comments**"
 git push
+
+
+If you have created a new Notebook and want to push 
+cd ~/Documents/Notebook
+git add -A
+git commit -m "Add new notebook"
+git pull --rebase origin main
+git push -u origin main
