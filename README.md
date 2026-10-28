@@ -61,7 +61,7 @@ git rebase --abort
 
 
 # Scenario 4: Updating an Existing Notebook
-# Same as Scenario 2, but a good commit message describes the change.
+Same as Scenario 2, but a good commit message describes the change.
 
 cd ~/Documents/Notebook
 git add -A
